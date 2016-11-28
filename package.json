@@ -1,0 +1,19 @@
+{
+  "name": "parkinger-cli",
+  "version": "0.0.1",
+  "description": "The command line interface for the parkinger car parking sharing application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests available\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/parking-lots/parkinger-cli.git"
+  },
+  "author": "Jurgis Bridzius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parking-lots/parkinger-cli/issues"
+  },
+  "homepage": "https://github.com/parking-lots/parkinger-cli#readme"
+}

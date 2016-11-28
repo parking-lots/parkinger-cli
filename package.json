@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/parking-lots/parkinger-cli.git"
   },
+  "bin": {
+	  "parkinger": "./index.js"
+  },
   "author": "Jurgis Bridzius",
   "license": "ISC",
   "bugs": {

@@ -11,12 +11,21 @@
     "url": "git+ssh://git@github.com/parking-lots/parkinger-cli.git"
   },
   "bin": {
-	  "parkinger": "./index.js"
+    "parkinger": "./index.js"
   },
   "author": "Jurgis Bridzius",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/parking-lots/parkinger-cli/issues"
   },
-  "homepage": "https://github.com/parking-lots/parkinger-cli#readme"
+  "homepage": "https://github.com/parking-lots/parkinger-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "inquirer": "^1.2.3",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "0.0.0"
+  }
 }
